@@ -32,7 +32,7 @@ public class QuickSort {
     }
 
     public static void quickSort(int[] arr) {
-        if (arr == null && arr.length == 0) {
+        if (arr == null || arr.length == 0) {
             return;
         }
 

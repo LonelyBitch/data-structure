@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/entry algorithm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Binnary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OneDay" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第二遍" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

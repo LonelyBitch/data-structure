@@ -26,7 +26,7 @@ public class QuickSort {
 
         if (l<r){
 
-            int[] p = paritition(arr, l, r);
+            int[] p = partition(arr, l, r);
 
             QuickSrot(arr, l, p[0]-1);
             QuickSrot(arr, p[1]++, r);
@@ -34,7 +34,7 @@ public class QuickSort {
 
     }
 
-    public static int[] paritition(int[] arr, int l, int r) {
+    public static int[] partition(int[] arr, int l, int r) {
         int less = l - 1;
         int more = r;
 

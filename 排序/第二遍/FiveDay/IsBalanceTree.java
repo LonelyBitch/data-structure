@@ -34,16 +34,15 @@ public class IsBalanceTree {
     }
     public static ReturnData iBProcess(Node node){
         if (node==null){
-            return new ReturnData(false, 0 );
+            return new ReturnData(true, 0 );
         }
 
         ReturnData leftDate = iBProcess(node.leftNode);
-        if (leftDate.b){
+        if (!leftDate.b){
             return new ReturnData(false, 0 );
         }
-
         ReturnData rightData = iBProcess(node.rightNode);
-        if (rightData.b){
+        if (!rightData.b){
             return new ReturnData(false, 0 );
         }
 
@@ -51,7 +50,7 @@ public class IsBalanceTree {
             return new ReturnData(false, 0 );
         }
 
-        return new ReturnData(true, Math.max(leftDate.h , rightData.h));
+        return new ReturnData(true, Math.max(leftDate.h , rightData.h)+1);
 
 
     }

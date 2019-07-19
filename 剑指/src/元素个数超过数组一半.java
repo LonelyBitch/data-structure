@@ -6,9 +6,12 @@ public class 元素个数超过数组一半 {
 
     public static void main(String[] args) {
 
+        int[] arr  = new int[5];
+        moreThanHalfNum_Soulation(arr);
+
     }
 
-    public int moreThanHalfNum_Soulation(int[] array) {
+    public static int moreThanHalfNum_Soulation(int[] array) {
 
         if (array.length == 0 || array == null) return 0;
 
@@ -32,4 +35,9 @@ public class 元素个数超过数组一半 {
         return count>array.length/2? number: 0 ;
 
     }
+    public void add(){
+
+    }
+
+
 }
